@@ -1,0 +1,80 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+.login-container h2 {
+    background:rgba(255, 160, 122, 0.916);
+    color: #fff;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.login-container form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+.form-group label {
+    color: #333;
+    font-weight: bold;
+    margin: 10px;
+    font-weight: 25px;
+}
+
+.form-group input {
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #e74c3c;
+}
+
+.login-button {
+    background-color:rgba(255, 160, 122, 0.855);
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color:rgba(255, 160, 122, 0.893);
+}
+
